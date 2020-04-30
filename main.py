@@ -201,7 +201,7 @@ def print_banner(title):
     print("-" * len(title))
 
 
-def run():
+def main():
     """
     Starts the program
     :return: None
@@ -219,6 +219,6 @@ def run():
 
 if __name__ == '__main__':
     start = time.perf_counter()
-    run()
+    main()
     finish = time.perf_counter()
     print(f"--- Finished in {round(finish-start, 2)} seconds ---")
